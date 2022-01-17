@@ -1,0 +1,172 @@
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+img, fieldset, iframe {
+    border: 0 none;
+}
+body, button, input, select, table, textarea {
+    font-size: 13px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+p {
+	display: block;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+ul {
+	display: block;
+	list-style-type: none;
+}
+#wrap {
+	font-size: 16px;
+}
+#header {
+	height: 90px;
+	position: relative;
+}
+#header .member_header {
+	min-width: 190px;
+	background-color: black;
+	padding: 0 45px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 20;
+}
+#header .hd {
+	height: 70px;
+	box-sizing: border-box;
+	padding-left: 135px;
+	max-width: 1130px;
+}
+#header .hd .hd_logo {
+	position: absolute;
+	left: 45px;
+	top: 0;
+	text-decoration: none;
+	padding: 25px 0;
+	font-size: 32px;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	width: 118px;
+	color: white;
+}
+#container {
+	margin: 20px 30px 0;
+	padding: 0;
+}
+#container .sale_container {
+	display: block;
+	width: 95%;
+	max-width: 1024px;
+	font-size: 1em;
+	min-width: 300px;
+	min-height: 500px;
+	position: relative;
+	color: black;
+	margin: 0 auto;
+}
+#container .sale_head {
+	display: block;
+	min-height: 150px;
+	position: relative;
+}
+#container .item_head {
+	display: block;
+	min-height: 40px;
+	position: relative;
+	padding-top: 10px;
+}
+#container .item_title {
+	position: absolute;
+	width: 100px;
+	padding-left: 55px;
+	height: 20px;
+}
+#container .item_title1 {
+	display: inline;
+	position: relative;
+	width: 95%;
+	float: left;
+	margin-left: 160px;
+
+}
+#container .item_title1 .input_title {
+	width: 600px;
+	height: 16px;
+	
+}
+#container .item_head h3 {
+	font-size: 1.3em;
+}
+#container .item_title1 .input_price {
+	width: 150px;
+	height: 16px;
+}
+#container .item_title1 .input_stock {
+	width: 55px;
+	height: 16px;
+}
+#container .sale_body {
+	display: block;
+	min-height: 250px;
+	position: relative;
+}
+#container .item_content {
+	display: block;
+	min-height: 40px;
+	position: relative;
+	padding-top: 10px;
+	height: 250px;
+}
+#container .item_title1 .input_content {
+	width: 600px;
+	height: 250px;
+}
+#container .item_content+.item_content {
+	display: block;
+	min-height: 40px;
+	position: relative;
+	padding-top: 10px;
+	height: 100px;
+}
+#container .sale_foot {
+	display: block;
+	min-height: 50px;
+	position: relative;
+	width: 95%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+#container .button_area {
+	padding-right: 220px;;
+	padding-left: 650px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	min-width: 154px;
+}
+.btn_type {
+	font-weight: 400;
+	color: white;
+	background-color: black;
+	border: solid 1px;
+	display: block;
+	width: 100%;
+	padding: 10px 0 10px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+
+
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mandu.mapper.ConsumerMapper">
+
+	<select id="selectItemList" resultType="vo.ConsumerVO">
+		select itemNo from consumer where id = #{id}
+	</select>
+	
+	<select id="selectOne" resultType="vo.ConsumerVO">
+		select * from consumer where buyNo = #{buyNo}
+	</select>
+	
+	<select id="selectList" resultType="vo.ConsumerVO">
+		select buyNo, itemNo, buyAddress, buyReview, buyImage,
+		buyDate, buyStar from consumer where id=#{id} order by buyNo desc
+	</select>
+	
+	<insert id="insert">
+		insert into consumer values(
+		#{id}||seq_buyNo.NEXTVAL,#{itemNo},#{id},'',
+		'','','','')
+	</insert>
+	
+</mapper>

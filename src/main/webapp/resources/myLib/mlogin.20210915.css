@@ -1,0 +1,109 @@
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+img, fieldset, iframe {
+    border: 0 none;
+}
+body, button, input, select, table, textarea {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+p {
+	display: block;
+}
+.s_login {
+	padding: 83px 0;
+}
+.s_login_logo {
+	background-repeat: no-repeat;
+	overflow: hidden;
+	line-height: 200px;	
+}
+.s_login_logo.logo_mandu {
+	display: block;
+	width: 100px;
+	height: 120px;
+	background-position: 0 0;
+	margin: 0 auto 10px;
+}
+.s_login_logo.logo_mandu a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.login_form {
+	width: 328px;
+	margin: 0 auto;
+}
+.login_input {
+	position: relative;
+	border: 1px solid gray;
+	width: 328px;
+	height: 48px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.login_input .inp {
+	width: 326px;
+	height: 29px;
+	border: none;
+	display: block;
+	padding: 1px 16px 3px;
+	color: black;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 44px;
+	box-sizing: border-box;
+}
+.eMessage {
+	color: red;
+	font-size: 11px;
+	margin-left: 20px;
+}
+.btn_Atype {
+	margin-bottom: 16px;
+	color: white;
+	background: black;
+	border-color: black;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	font-size: 17px;
+	line-height: 46px;
+	box-sizing: border-box;
+	height: 48px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.login_form .login_find {
+	float: right;
+	font-size: 13px;
+}
+.login_form .login_find a {
+	float: left;
+	position: relative;
+	padding: 0 8px;
+	margin-right: -1px;
+	color: black;
+}
+.login_form .l_join {
+	margin-top: 40px;
+	text-align: center;
+}
+.login_form .l_join a {
+	color: black;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+

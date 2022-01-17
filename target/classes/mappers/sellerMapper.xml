@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mandu.mapper.SellerMapper">
+	
+	<sql id="search">
+		where itemTitle like '%' || #{keyword} || '%'
+	</sql>
+	
+	<select id="searchList" resultType="vo.SellerVO">
+		select itemNo,itemTitle,itemContent,itemPrice,itemImage,itemDate,
+		buyCount,itemCount,itemType from seller
+		<include refid="search"></include>
+		order by buyCount desc
+	</select>
+	
+	<select id="selectCategoryList" resultType="vo.SellerVO">
+		select itemNo,itemTitle,itemContent,itemPrice,itemImage,itemDate,
+		buyCount,itemCount,itemType from seller where itemType=#{itemType} order by buyCount desc
+	</select>
+	
+	<select id="selectHomeOne" resultType="vo.SellerVO">
+		select itemNo,itemTitle,itemContent,itemPrice,itemImage,itemDate,
+		buyCount,itemCount,itemType from seller where itemNo=#{itemNo}
+	</select>
+	
+	<select id="selectHomeList" resultType="vo.SellerVO">
+		select itemNo,itemTitle,itemContent,itemPrice,itemImage,itemDate,
+		buyCount,itemCount,itemType from seller order by buyCount desc
+	</select>
+	
+	<insert id="insert">
+		insert into seller values (
+		#{id}||seq_itemNo.NEXTVAL, #{id}, #{itemTitle}, 
+		#{itemContent}, #{itemPrice}, #{itemImage}, 
+		SYSDATE, 0, #{itemCount}, #{itemType})
+	</insert>
+	
+	<select id="selectList" resultType="vo.SellerVO">
+		select itemNo,itemTitle,itemContent,itemPrice,itemImage,itemDate,
+		buyCount,itemCount,itemType from seller where id=#{id} order by itemNo desc
+	</select>
+	
+	<select id="selectOne" resultType="vo.SellerVO">
+		select * from seller where itemNo=#{itemNo}
+	</select>
+
+	<update id="update">
+		update seller set itemTitle=#{itemTitle}, itemPrice=#{itemPrice}, 
+		itemCount=#{itemCount}, itemContent=#{itemContent}, 
+		itemImage=#{itemImage}, itemType=#{itemType} where itemNo=#{itemNo}
+	</update>
+	
+	<delete id="delete">
+		delete from seller where itemNo=#{itemNo}
+	</delete>
+	
+</mapper>

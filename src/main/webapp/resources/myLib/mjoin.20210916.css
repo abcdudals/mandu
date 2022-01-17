@@ -1,0 +1,144 @@
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+img, fieldset, iframe {
+    border: 0 none;
+}
+body, button, input, select, table, textarea {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+p {
+	display: block;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+.eMessage {
+	color: red;
+	font-size: 12px;
+}
+#wrap {
+	width: 100%;
+}
+#header {
+	position: relative;
+	overflow: hidden;
+	padding: 60px 0 54px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 768px;
+	min-width: 460px;
+}
+#header .join_membership {
+	padding-bottom: 20px;
+}
+#header .h_logo {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 44px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	color: transparent;
+	font-size: 0;
+}
+#container {
+	width: auto;
+	max-width: 768px;
+	min-width: 460px;
+	margin: 0 auto;
+}
+#content {
+	width: 460px;
+	margin: 0 auto;
+}
+#content .row_group {
+	overflow: hidden;
+	width: 100%;
+}
+#content .join_title {
+	margin: 19px 0 8px;
+	font-size: 14px;
+	font-weight: 700px;
+}
+#content .join_box {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 51px;
+	border: solid 1px #dadada;
+	padding: 10px 14px 10px 14px;
+	box-sizing: border-box;
+	background: white;
+	vertical-align: top;
+}
+#content .join_box.int_id {
+	background: white;
+	outline: 0;
+}
+#content .int {
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 22px;
+    padding-right: 25px;
+    line-height: 29px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+#content .int_email {
+	display: block;
+    position: relative;
+    width: 100%;
+    padding-right: 10px;
+    padding-bottom: -30px;
+    border: none;
+    background: #fff;
+    font-size: 15px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+#content .int_idDup {
+	position: relative;
+	display: block;
+	float: right;
+	padding: 0 5px 0 5px;
+}
+#content .btn_area {
+	margin: 30px 0 9px;
+}
+.btn_type {
+	font-weight: 400;
+	color: white;
+	background-color: black;
+	border: solid 1px;
+	display: block;
+	width: 100%;
+	padding: 15px 0 15px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

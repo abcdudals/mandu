@@ -1,0 +1,153 @@
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+img, fieldset, iframe {
+    border: 0 none;
+}
+body, button, input, select, table, textarea {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+p {
+	display: block;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+#wrap {
+	font-size: 16px;
+}
+#header {
+	height: 90px;
+	position: relative;
+}
+#header .member_header {
+	min-width: 190px;
+	background-color: black;
+	padding: 0 45px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 20;
+}
+#header .hd {
+	height: 70px;
+	box-sizing: border-box;
+	padding-left: 135px;
+	max-width: 1130px;
+}
+.hd .hd_logo {
+	position: absolute;
+	left: 45px;
+	top: 0;
+	text-decoration: none;
+	padding: 25px 0;
+	font-size: 32px;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	width: 118px;
+	color: white;
+}
+#container {
+	margin: 20px 30px 0;
+	padding: 0;
+}
+#container .account_container {
+	display: block;
+	width: 95%;
+	max-width: 1024px;
+	font-size: 1em;
+	min-width: 300px;
+	min-height: 400px;
+	position: relative;
+	color: black;
+	margin: 0 auto;
+}
+#container .account_header {
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 2.15em;
+	margin: 0 0 .55em;
+	color: black;
+	font-weight: 400;
+}
+#container .header_box {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+#container .box_link {
+	font-size: 1.5em;
+	margin-right: 20px;
+}
+#container .account_content {
+	font-size: 1.2em;
+}
+#container .content_header {
+	width: 270px;
+	position: absolute;
+	left: 0;
+	padding-right: 10px;
+	z-index: 2;
+}
+#container .heading {
+	font-size: 1.25em;
+	color: gray;
+	font-weight: 400;
+	padding: 0;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+#container .content_body {
+	margin-top: 15px;
+	padding-left: 270px;
+	position: relative;
+}
+#container .body_account {
+	position: relative;
+}
+#container .account_section {
+	float: left;
+	width: 50%;
+	background-color: inherit;
+}
+#container .section_email {
+	font-weight: 700;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#container .account_section_item {
+	margin-bottom: 20px;
+}
+#container .account_section+.account_section {
+	float: right;
+	text-align: right;
+}
+#container .account_section_link {
+	color: #0073e6;
+    display: inline;
+    padding-right: 0;
+    border-top: none;
+    padding-top: 5px;
+}
+#container .account_section_remove {
+	display: block;
+	width: 95%;
+	max-width: 1024px;
+	font-size: 1em;
+	min-width: 300px;
+	min-height: 50px;
+	position: relative;
+	color: black;
+	margin: 0 auto;
+}
+#container .account_section_remove a{
+	float: right;
+}
+

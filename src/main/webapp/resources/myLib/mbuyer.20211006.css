@@ -1,0 +1,197 @@
+body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, select, table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+img, fieldset, iframe {
+    border: 0 none;
+}
+body, button, input, select, table, textarea {
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+p {
+	display: block;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+ul {
+	display: block;
+	list-style-type: none;
+}
+#wrap {
+	font-size: 16px;
+}
+#header {
+	height: 90px;
+	position: relative;
+}
+#header .member_header {
+	min-width: 190px;
+	background-color: black;
+	padding: 0 45px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 20;
+}
+#header .hd {
+	height: 70px;
+	box-sizing: border-box;
+	padding-left: 135px;
+	max-width: 1130px;
+}
+#header .hd .hd_logo {
+	position: absolute;
+	left: 45px;
+	top: 0;
+	text-decoration: none;
+	padding: 25px 0;
+	font-size: 32px;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	width: 118px;
+	color: white;
+}
+#container {
+	margin: 20px 30px 0;
+	padding: 0;
+}
+#container .sale_container {
+	display: block;
+	width: 95%;
+	max-width: 1024px;
+	font-size: 1em;
+	min-width: 300px;
+	min-height: 400px;
+	position: relative;
+	color: black;
+	margin: 0 auto;
+}
+#container .sale_header {
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 2.15em;
+	margin: 0 0 .55em;
+	color: black;
+	font-weight: 400;
+}
+#container .sale_header1 {
+	float: right;
+	padding-right: 30px;
+	display: inline;
+	margin: 0 0 .55em;
+	color: black;
+	font-weight: 400;
+}
+#container .sale_content {
+	font-size: 1.2em;
+}
+#container .details_table {
+	clear: both;
+	position: relative;
+	z-index: 12;
+	border-collapse: collapse;
+	width: 100%;
+}
+#container .details_table thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+#container .details_table thead tr {
+	display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+#container .details_table thead th {
+	padding: 14px 0 22px 0;
+	color: black;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: left;
+}
+#container .sale_new {
+	position: absolute;
+	top: 15px;
+	bottom: 0;
+	right: 30px;
+	overflow: hidden;
+}
+#container .sale_new .sale_new_link {
+	position: relative;
+	margin: 0;
+}
+#container .sale_content .b_card {
+	position: relative;
+	height: 180px;
+	background-color: #FFFAFA;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: black;
+}
+#container .sale_content .card_title {
+	padding-top: 2px;
+	text-align: center;
+	font-size: 14px;
+}
+#container .sale_content .card_number {
+	padding-top: 2px;
+	text-align: right;
+	font-size: 10px;
+}
+#container .sale_content .strong_number {
+	text-align: right;
+	font-size: 14px;
+}
+#container .sale_content ul {
+	height: 610px;
+}
+#container .sale_content li {
+	float: left;
+	width: 180px;
+	margin: 20px 0 0 20px;
+	border-radius: 4px;
+	box-shadow: 0px 2px 10px -2px rgb(0 0 0 / 6%), 0px 0px 1px 0px rgb(0 0 0 / 28%);
+	box-sizing: border-box;
+}
+#container .sale_page {
+	margin: 30px 0 0 0;
+	text-align: center;
+}
+#container .sale_page .list {
+	position: relative;
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+}
+#container .sale_page .list ul {
+	display: inline-block;
+}
+#container .sale_page .list ul li {
+	display: inline-block;
+	margin: 16px 3px 0 2px;
+	vertical-align: middle;
+}
+#container .sale_page .navigator button {
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	box-shadow: 0 2px 10px -2px rgb(0 0 0 / 6%), 0 0 1px 0 rgb(0 0 0 / 28%);
+    background-color: #fff;
+    line-height: 200px;
+}
+#container .sale_page .navigator button.previous {
+	left: -54px;
+}
+#container .sale_page .navigator button.next {
+	right: -54px;
+}
